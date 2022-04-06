@@ -159,3 +159,9 @@ Received Import Request.
   path: Assets/New Material.mat
   artifactKey: Guid(bc67dc046c5fe45f48b7a74f7ee0c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Material.mat using Guid(bc67dc046c5fe45f48b7a74f7ee0c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc882d4ef8de02ac8ea034aac71ebce') in 0.016201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.768378 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(bc67dc046c5fe45f48b7a74f7ee0c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(bc67dc046c5fe45f48b7a74f7ee0c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a680cc962475a7891a6a27ce87ffc7a') in 0.033984 seconds 
