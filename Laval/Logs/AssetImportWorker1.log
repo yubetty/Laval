@@ -16,15 +16,21 @@ COMMAND LINE ARGUMENTS:
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker0
 -projectPath
 /Users/betty/Documents/GitHub/Laval/Laval
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 52875
 Successfully changed project path to: /Users/betty/Documents/GitHub/Laval/Laval
 /Users/betty/Documents/GitHub/Laval/Laval
+=======
+60133
+Successfully changed project path to: /Users/xyz/Desktop/laval/Laval/Laval
+/Users/xyz/Desktop/laval/Laval/Laval
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,8 +60,13 @@ Successfully changed project path to: /Users/betty/Documents/GitHub/Laval/Laval
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 Refreshing native plugins compatible for Editor in 54.40 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 6.00 ms.
+=======
+Refreshing native plugins compatible for Editor in 47.11 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 7.15 ms.
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 Initialize engine version: 2021.2.18f1 (0c6e675195cf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.18f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/betty/Documents/GitHub/Laval/Laval/Assets
@@ -69,12 +80,17 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.18f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56786
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.18f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 Registered in 0.002457 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -86,10 +102,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (402ms)
 		BeginReloadAssembly (66ms)
+=======
+Registered in 0.001623 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (581ms)
+		BeginReloadAssembly (82ms)
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 			CreateAndSetChildDomain (0ms)
 		EndReloadAssembly (262ms)
 			LoadAssemblies (68ms)
@@ -105,17 +135,40 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (51ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
+=======
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 Registered in 0.002553 seconds.
+=======
+Registered in 0.001028 seconds.
+Android Extension - Scanning For ADB Devices 563 ms
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 Begin MonoManager ReloadAssembly
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 Refreshing native plugins compatible for Editor in 27.33 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.22 ms.
 Package Manager log level set to [2]
@@ -124,10 +177,21 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (714ms)
 		BeginReloadAssembly (165ms)
+=======
+Refreshing native plugins compatible for Editor in 43.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (894ms)
+		BeginReloadAssembly (82ms)
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 			CreateAndSetChildDomain (122ms)
 		EndReloadAssembly (480ms)
 			LoadAssemblies (49ms)
@@ -136,13 +200,30 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (31ms)
 			SetupLoadedEditorAssemblies (241ms)
+=======
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (363ms)
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 				RefreshPlugins (28ms)
 				BeforeProcessingInitializeOnLoad (35ms)
 				ProcessInitializeOnLoadAttributes (158ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
+=======
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,6 +232,7 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
 Launched and connected shader compiler UnityShaderCompiler after 0.25 seconds
 Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.22 ms.
@@ -158,6 +240,15 @@ Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 21 unused Assets / (44.2 KB). Loaded Objects now: 2734.
 Memory consumption went from 187.6 MB to 187.6 MB.
 Total: 2.380166 ms (FindLiveObjects: 0.108833 ms CreateObjectMapping: 0.029875 ms MarkObjects: 2.181084 ms  DeleteObjects: 0.059583 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler after 0.31 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (44.2 KB). Loaded Objects now: 2734.
+Memory consumption went from 187.0 MB to 186.9 MB.
+Total: 3.381292 ms (FindLiveObjects: 0.118834 ms CreateObjectMapping: 0.048791 ms MarkObjects: 3.145792 ms  DeleteObjects: 0.066791 ms)
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,6 +262,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD:Laval/Logs/AssetImportWorker1.log
   Time since last request: 19096.840135 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -213,3 +305,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  Time since last request: 732669.799503 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(db788ed11cf874185989895f05e906e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(db788ed11cf874185989895f05e906e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539cdc0c649d8d2f741c2021571cf13d') in 0.875223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.740148 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(462ab1eaeba7c4a7692c4d302ba148dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(462ab1eaeba7c4a7692c4d302ba148dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2338b067fab4ced6379fe7769ab26806') in 0.001221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.511641 seconds.
+  path: Assets/Materials/Blue Metal.mat
+  artifactKey: Guid(bc67dc046c5fe45f48b7a74f7ee0c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue Metal.mat using Guid(bc67dc046c5fe45f48b7a74f7ee0c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09aba804b809ad3610af4f9ad678c56c') in 0.029001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.307773 seconds.
+  path: Assets/Materials/Earth.mat
+  artifactKey: Guid(db788ed11cf874185989895f05e906e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Earth.mat using Guid(db788ed11cf874185989895f05e906e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18f8967525e871291158dc3faa136c1') in 0.328894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.683195 seconds.
+  path: Assets/Materials/Earth.mat
+  artifactKey: Guid(db788ed11cf874185989895f05e906e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Earth.mat using Guid(db788ed11cf874185989895f05e906e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29057eacf4450db113f1844a61556f0c') in 0.029265 seconds 
+>>>>>>> 0bf2eb4f85d0c6892dd4a28d801326a9cd83797a:Laval/Logs/AssetImportWorker0.log
