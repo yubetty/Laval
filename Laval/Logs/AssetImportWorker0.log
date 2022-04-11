@@ -216,3 +216,308 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.43 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 6.73 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.5 MB.
+System memory in use after: 190.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 92.727500 ms (FindLiveObjects: 4.454917 ms CreateObjectMapping: 0.064875 ms MarkObjects: 87.894500 ms  DeleteObjects: 0.311125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3482.550896 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(54fd6d6587ea243728044c89c3673e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(54fd6d6587ea243728044c89c3673e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb48e5f5ed21907cfa13ea663d779e8') in 0.267734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/XR/Settings/Magic Leap Settings.asset
+  artifactKey: Guid(ed2288c2d4e744cb2873615413b92e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Magic Leap Settings.asset using Guid(ed2288c2d4e744cb2873615413b92e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d10c1edf1ca8f1ba02ea3b82d33a1f') in 0.004731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(00dcbb307d0bd4912982bd2bcf6953fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(00dcbb307d0bd4912982bd2bcf6953fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9979597260d81db6ef5bb161f1c24d') in 0.024949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcb17524a39bab94a43784bfc13cd96') in 0.129921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Plugins/Lumin/MagicLeapManifestSettings.asset
+  artifactKey: Guid(e2efa91250b5b49e1890791f78a85562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Lumin/MagicLeapManifestSettings.asset using Guid(e2efa91250b5b49e1890791f78a85562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb3616925cb4b41cdc63ad991c22274') in 0.015825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/magic-leap-setup-tool/Editor/MagicLeap.SetupTool.Editor.asmdef
+  artifactKey: Guid(0674fc64a782e7648af1c27735bf4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/magic-leap-setup-tool/Editor/MagicLeap.SetupTool.Editor.asmdef using Guid(0674fc64a782e7648af1c27735bf4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc8c6dd8631a522015b2aff8e0f554d') in 0.049683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.923156 seconds.
+  path: Assets/magic-leap-setup-tool/Editor/MLSDKRegistryPackageImporter.cs
+  artifactKey: Guid(6b734886aab6c0a46a14042b5f3c8849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/magic-leap-setup-tool/Editor/MLSDKRegistryPackageImporter.cs using Guid(6b734886aab6c0a46a14042b5f3c8849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a027aa50214d48aefedf4aaa8e95d77') in 1.380898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.809799 seconds.
+  path: Assets/StreamingAssets/MLImageLibraries
+  artifactKey: Guid(5217d7083aa94434a841621c88dbc6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MLImageLibraries using Guid(5217d7083aa94434a841621c88dbc6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533fc2518e62776ab3e81697faa5025f') in 0.004919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 324.086744 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef
+  artifactKey: Guid(b13a1d1dfb13f1b489a0ff5612f36f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef using Guid(b13a1d1dfb13f1b489a0ff5612f36f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37acf390e57421fc42c44ad0e26a3bcb') in 0.011845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001233 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef
+  artifactKey: Guid(ba171b3dd2a51234ab864770f99741a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef using Guid(ba171b3dd2a51234ab864770f99741a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7e04f80ab644cfb1cf135254535154') in 0.001260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef
+  artifactKey: Guid(0ed2122ec3d57864e862de5fb40f7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef using Guid(0ed2122ec3d57864e862de5fb40f7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4772f9c503530848f38c1f7ecac35f25') in 0.002531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.822172 seconds.
+  path: Packages/com.unity.xr.magicleap/Runtime/Meshing/MLSpatialMapper.cs
+  artifactKey: Guid(2900a6968c451a44481c09cc0a260539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.magicleap/Runtime/Meshing/MLSpatialMapper.cs using Guid(2900a6968c451a44481c09cc0a260539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b69f1b615c9f85c0337236d3141f6e8') in 0.003167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.527455 seconds.
+  path: Packages/com.unity.xr.magicleap/Editor/MLSpatialMapperEditor.cs
+  artifactKey: Guid(50917095f6f539746b08800f06545fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.magicleap/Editor/MLSpatialMapperEditor.cs using Guid(50917095f6f539746b08800f06545fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f03bdcc0e1afeadf035d9102edde91') in 0.007149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.946363 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator.prefab using Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2c4526b7e038578e7bc9fa16f4ce05') in 0.118581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e5402df3ba6997afeb4e074ac5eb80') in 0.062606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.747980 seconds.
+  path: Assets/Original.prefab
+  artifactKey: Guid(41a3d0d41510644d59f3fd8263b15845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original.prefab using Guid(41a3d0d41510644d59f3fd8263b15845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44e665fd9934f7b98766fdcd67436a7') in 0.031139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.434466 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation.png
+  artifactKey: Guid(c933c2bcad7ef46309fde7c1cf11b39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation.png using Guid(c933c2bcad7ef46309fde7c1cf11b39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4697d7d980e8aa71d56040e64a70483') in 0.950196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@2x.png
+  artifactKey: Guid(cae83450c8b18499c8c0239edf8bcc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@2x.png using Guid(cae83450c8b18499c8c0239edf8bcc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f94ae31d898697eda4f96049758fc0') in 0.009738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@3x.png
+  artifactKey: Guid(424bff4d3ea64400e9b384cb8bebfb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@3x.png using Guid(424bff4d3ea64400e9b384cb8bebfb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa6b70b7594be096e707b6dd9388a62') in 0.029322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation.png
+  artifactKey: Guid(7fb7b46a8c63948d2b28dc394281bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation.png using Guid(7fb7b46a8c63948d2b28dc394281bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efad40b6c99dd5882f133e6d7a55c68') in 0.014194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  artifactKey: Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions using Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f2f006d3765663ff2a7b768ba35996') in 0.031816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@2x.png
+  artifactKey: Guid(62f8dda50382d487597224e197cbd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@2x.png using Guid(62f8dda50382d487597224e197cbd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0674e0e92151080bc1654a20ffee06') in 0.010914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@3x.png
+  artifactKey: Guid(5f09d534eb1414449a2758696bd4dd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@3x.png using Guid(5f09d534eb1414449a2758696bd4dd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ecea804e74033a94ea547d306f845f') in 0.008155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@4x.png
+  artifactKey: Guid(1c751eb104ad5407992e614361d5f81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@4x.png using Guid(1c751eb104ad5407992e614361d5f81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6989a99e698683ff0216fc01f65d9cd3') in 0.011218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@4x.png
+  artifactKey: Guid(de98baf415a2c4d7dbe0de74cb6e171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@4x.png using Guid(de98baf415a2c4d7dbe0de74cb6e171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3eadf5cf09115f61219b947f419afd4') in 0.007758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1233.814779 seconds.
+  path: Assets/Materials/Wireframe.mat
+  artifactKey: Guid(00d05020ec1764c739a293ae160dc90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wireframe.mat using Guid(00d05020ec1764c739a293ae160dc90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa72394e699d846d0134d4211c36aff5') in 0.341906 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005648 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/betty/Documents/GitHub/Laval/Laval/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 72.65 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 8.95 ms.
+2022-04-11 23:09:14.810 Unity[62280:1442911] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000770e00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  4.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4727ms)
+		BeginReloadAssembly (1176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (77ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (645ms)
+		EndReloadAssembly (3397ms)
+			LoadAssemblies (965ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (14ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (301ms)
+				ProcessInitializeOnLoadAttributes (1146ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 3948 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 326.4 MB.
+System memory in use after: 322.2 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 4439.
+Total: 7.449750 ms (FindLiveObjects: 0.373458 ms CreateObjectMapping: 0.470125 ms MarkObjects: 4.887417 ms  DeleteObjects: 1.717041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 704.774098 seconds.
+  path: Assets/ML Spatial Mapper.prefab
+  artifactKey: Guid(4c835e009ea35447d8dab6854c10f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML Spatial Mapper.prefab using Guid(4c835e009ea35447d8dab6854c10f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d134e0ed7d4541d77c4ab6f1436746') in 0.623008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 561.939795 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/BooleanSlotControlView.uss
+  artifactKey: Guid(c72bf0f50e306d944a1e48a2bb299082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/BooleanSlotControlView.uss using Guid(c72bf0f50e306d944a1e48a2bb299082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff18d6efc7775a1458dd9f4e66a477f') in 0.298422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ChannelMixerControlView.uss
+  artifactKey: Guid(99d6d41531ec36841953987e7ae78317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ChannelMixerControlView.uss using Guid(99d6d41531ec36841953987e7ae78317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cd73b571ddfe9dd70116c7097eb55c') in 0.018108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001181 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorControlView.uss
+  artifactKey: Guid(4b038bc8dced2a440bc294aeff20a4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorControlView.uss using Guid(4b038bc8dced2a440bc294aeff20a4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0032e305a54f64e5df7b47ae54d52d5') in 0.008071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ChannelEnumControlView.uss
+  artifactKey: Guid(8dfac6eef2d89e8428c7a79b147413db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ChannelEnumControlView.uss using Guid(8dfac6eef2d89e8428c7a79b147413db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c9f3211e90a6628ec6dfbd2c2041aa') in 0.008670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBSlotControlView.uss
+  artifactKey: Guid(5f9f1162b05e46646805842469135609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBSlotControlView.uss using Guid(5f9f1162b05e46646805842469135609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0841f9570dd39171403d89ae64c0cee5') in 0.006718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ChannelEnumMaskControlView.uss
+  artifactKey: Guid(1db7b9bf1f9186d44ba7fefd3bc715c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ChannelEnumMaskControlView.uss using Guid(1db7b9bf1f9186d44ba7fefd3bc715c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f29de64946654b2c29ae60a31f7b77a') in 0.003180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBASlotControlView.uss
+  artifactKey: Guid(a690636bb8883ea4db5f27192551b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBASlotControlView.uss using Guid(a690636bb8883ea4db5f27192551b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fd7dbfbecc876c3ef66ec1d91c546e') in 0.005933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.993555 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38b5808f862010cc71bf7941031987c') in 0.132470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001745 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65125089cd0625cc6bab119de3db7aad') in 0.005302 seconds 

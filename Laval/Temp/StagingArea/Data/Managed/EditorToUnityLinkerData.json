@@ -7,7 +7,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -30,7 +30,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -60,7 +60,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -69,7 +69,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -129,7 +129,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -138,7 +138,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -154,7 +154,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -163,7 +163,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -186,7 +186,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -202,7 +202,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -239,16 +239,16 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LineRenderer",
-            "fullManagedTypeName": "UnityEngine.LineRenderer",
+            "nativeClass": "FlareLayer",
+            "fullManagedTypeName": "UnityEngine.FlareLayer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -257,7 +257,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -266,7 +266,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -275,7 +275,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -284,7 +284,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -293,16 +293,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshCollider",
-            "fullManagedTypeName": "UnityEngine.MeshCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -311,7 +302,7 @@
             "fullManagedTypeName": "UnityEngine.SphereCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -320,7 +311,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -329,7 +320,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -338,7 +329,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -347,7 +338,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -356,7 +347,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -365,7 +356,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -374,7 +365,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -383,7 +374,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -392,7 +383,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -401,7 +392,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -410,7 +401,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
@@ -419,27 +410,13 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Image-tracking.unity"
             ]
         },
         {
             "managedAssemblyName": "LuminUnity.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.MagicLeap.MLSceneOptimizerBehavior",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.InputSystem.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.InputSystem.InputActionAsset",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.InputSystem.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.InputSystem.InputActionReference",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -465,86 +442,9 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.InputSystem.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.InputSystem.XR.TrackedPoseDriver",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.CoreUtils.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.XR.CoreUtils.XROrigin",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousMoveProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.ActionBasedController",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulator",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.LocomotionSystem",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.XRInteractionManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Interaction.Toolkit.XRRayInteractor",
             "moduleName": "",
             "usedInScenes": []
         },

@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "9b436831ac56a4da52500f238e21e5a1402c69e5",
+   "hash": "ace8adcb0130ba95ab29fb7a4d7a3d0f50e3f1df",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3921624,
+   "size": 3888276,
    "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "da13a6b9609e69c907364e9a81efeb716138e193",
+   "hash": "3f29195319e295500f8060a06739f8858b8618cf",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 77075752,
+   "size": 76446440,
    "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "34bc3defe9bc55547442d898ceb11e79fbfadc60",
+   "xfrm_hash": "e94e3e1bad022e9513fe5fe83f5d0fdbd452883d",
    "xfrm_path": "/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libil2cpp.so-09d588e85ca0cf90",
-   "xfrm_size": 77076510
+   "xfrm_size": 76447198
   },
   {
    "compression": 8,
@@ -158,9 +158,9 @@
   },
   {
    "compression": 8,
-   "hash": "253c3316536dea6f035aa2b424177f74b494b825",
+   "hash": "4ee5f5c98d75c2891705c1c45349090ca20312fe",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 80972,
+   "size": 80988,
    "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
@@ -172,9 +172,9 @@
   },
   {
    "compression": 8,
-   "hash": "f2277feefcf89b1475543a70ee4951300c61ee8f",
+   "hash": "b9714395c002319217baaf7b885aeb6d140e7815",
    "pkgpath": "Data/level0",
-   "size": 14152,
+   "size": 6028,
    "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/level0"
   },
   {
@@ -193,9 +193,9 @@
   },
   {
    "compression": 8,
-   "hash": "c9101c617ebf9770fb4426eb495142218e8e5b5c",
+   "hash": "9336747622d68c18bbd4dc83f47ef4c9d8ec5cf7",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 172352,
+   "size": 133172,
    "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
