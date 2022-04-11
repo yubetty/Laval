@@ -1,0 +1,345 @@
+----IL2CPP Arguments----
+--convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=unityaot --compile-cpp --libil2cpp-static --platform=Lumin --architecture=ARM64 --configuration=Release --outputpath=/Users/betty/Documents/GitHub/Laval/Laval/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so --cachedirectory=/Users/betty/Documents/GitHub/Laval/Laval/Assets/../Library/il2cpp_cache/il2cpp_cache --baselib-directory=/Applications/Unity/Hub/Editor/2020.3.33f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64 --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=/Users/betty/Documents/GitHub/Laval/Laval/Assets/../Library/il2cpp_stats --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=/Applications/Unity/Hub/Editor/2020.3.33f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser --directory=/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/betty/Documents/GitHub/Laval/Laval/Library/Il2cppBuildCache/Lumin/il2cppOutput --stats-output-dir=/Users/betty/Documents/GitHub/Laval/Laval/Library/Il2cppBuildCache/Lumin/il2cppStats
+
+----Assemblies Converted-----
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/System.Configuration.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.LuminModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.XR.InteractionSubsystems.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/mscorlib.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.XR.Oculus.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.Subsystem.Registration.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.XR.Interaction.Toolkit.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Mono.Security.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/System.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Unity.XR.CoreUtils.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/System.Xml.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.XR.MagicLeap.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/System.Core.dll
+	/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll
+
+----- il2cpp Statistics -----
+General:
+	Conversion Time: 9.539 s
+	Job Count: 8
+	Processor Count: 8
+	Files Written: 272
+	String Literals: 5119
+Methods:
+	Total Methods: 37303
+	Non-Generic Methods: 21589
+	Generic Type Methods: 12624
+	Generic Methods: 3090
+	Shared Methods: 15647
+	Methods with Tail Calls : 0
+Metadata:
+	Total: 2,838.18 kb
+	String Literals: 39.99 kb
+	String Literal Data: 161.14 kb
+	Metadata Strings: 499.19 kb
+	Events: 2.18 kb
+	Properties: 95.49 kb
+	Methods: 746.94 kb
+	Parameter Default Values: 5.04 kb
+	Field Default Values: 60.42 kb
+	Field and Parameter Default Values Data: 84.38 kb
+	Field Marshaled Sizes: 11.72 kb
+	Parameters: 289.52 kb
+	Fields: 170.05 kb
+	Generic Parameters: 11.66 kb
+	Generic Parameter Constraints: 1.14 kb
+	Generic Containers: 9.77 kb
+	Nested Types: 3.58 kb
+	Interfaces: 4.95 kb
+	VTables: 135.91 kb
+	Interface Offsets: 26.92 kb
+	Type Definitions: 309.03 kb
+	Images: 1.91 kb
+	Assemblies: 3.06 kb
+	Field Refs: 0.90 kb
+	Referenced Assemblies: 1.03 kb
+	Attribute Types Ranges: 90.27 kb
+	Attribute Types: 57.18 kb
+	Unresolved Virtual Call Parameter Types: 6.73 kb
+	Unresolved Virtual Call Parameter Ranges: 4.80 kb
+	Windows Runtime type names: 0.00 kb
+	Windows Runtime strings: 0.00 kb
+	Exported Types: 3.29 kb
+Codegen:
+	NullChecks : 52235
+Interop:
+	Windows Runtime boxed types : 0
+	Windows Runtime types with names : 0
+	Native to managed interface adapters : 0
+	Array COM callable wrappers : 0
+	COM callable wrappers : 0
+	COM callable wrapper methods that were implemented : 0
+	COM callable wrapper methods that were stripped : 0
+	COM callable wrapper methods that were forwarded to call base class method : 0
+Compilation:
+	Total Files: 305
+	Files Compiled: 104
+	Cache Hits: 201
+	Cache Hit %: 65
+
+
+----Assembly Conversion Times----
+
+----Misc Timing----
+	PreProcessStage: None
+	GenericsCollector.Collect: None
+	WriteGenerics: None
+	AllAssemblyConversion: None
+
+----Generated Files----
+GenericMethods.cpp	3071229
+GenericMethods1.cpp	3659363
+GenericMethods2.cpp	2083275
+GenericMethods3.cpp	2997774
+GenericMethods4.cpp	3383049
+GenericMethods5.cpp	3438562
+GenericMethods6.cpp	455214
+Generics.cpp	2465117
+Generics1.cpp	2140729
+Generics10.cpp	3525101
+Generics11.cpp	3429600
+Generics12.cpp	1919372
+Generics13.cpp	1519443
+Generics14.cpp	1491996
+Generics15.cpp	1610584
+Generics16.cpp	2393752
+Generics17.cpp	2715669
+Generics18.cpp	3224719
+Generics19.cpp	2565930
+Generics2.cpp	2514633
+Generics3.cpp	1689018
+Generics4.cpp	3912898
+Generics5.cpp	3544095
+Generics6.cpp	2209847
+Generics7.cpp	2023253
+Generics8.cpp	2409132
+Generics9.cpp	2161857
+Il2CppCCalculateFieldValues.cpp	8025584
+Il2CppCCalculateFieldValues1.cpp	1222015
+Il2CppCCalculateTypeValues.cpp	8627338
+Il2CppCCFieldValuesTable.cpp	198939
+Il2CppCCTypeValuesTable.cpp	339602
+Il2CppCodeRegistration.cpp	7742
+Il2CppGenericAdjustorThunkTable.cpp	777624
+Il2CppGenericComDefinitions.cpp	153
+Il2CppGenericComDefinitions1.cpp	153
+Il2CppGenericComDefinitions10.cpp	153
+Il2CppGenericComDefinitions11.cpp	153
+Il2CppGenericComDefinitions12.cpp	153
+Il2CppGenericComDefinitions13.cpp	153
+Il2CppGenericComDefinitions14.cpp	153
+Il2CppGenericComDefinitions15.cpp	153
+Il2CppGenericComDefinitions16.cpp	153
+Il2CppGenericComDefinitions17.cpp	153
+Il2CppGenericComDefinitions18.cpp	153
+Il2CppGenericComDefinitions19.cpp	153
+Il2CppGenericComDefinitions2.cpp	153
+Il2CppGenericComDefinitions20.cpp	153
+Il2CppGenericComDefinitions21.cpp	153
+Il2CppGenericComDefinitions22.cpp	153
+Il2CppGenericComDefinitions23.cpp	153
+Il2CppGenericComDefinitions24.cpp	153
+Il2CppGenericComDefinitions25.cpp	153
+Il2CppGenericComDefinitions26.cpp	153
+Il2CppGenericComDefinitions27.cpp	153
+Il2CppGenericComDefinitions28.cpp	153
+Il2CppGenericComDefinitions29.cpp	153
+Il2CppGenericComDefinitions3.cpp	153
+Il2CppGenericComDefinitions30.cpp	153
+Il2CppGenericComDefinitions31.cpp	153
+Il2CppGenericComDefinitions32.cpp	153
+Il2CppGenericComDefinitions33.cpp	153
+Il2CppGenericComDefinitions34.cpp	153
+Il2CppGenericComDefinitions35.cpp	153
+Il2CppGenericComDefinitions36.cpp	153
+Il2CppGenericComDefinitions37.cpp	153
+Il2CppGenericComDefinitions38.cpp	153
+Il2CppGenericComDefinitions39.cpp	153
+Il2CppGenericComDefinitions4.cpp	153
+Il2CppGenericComDefinitions40.cpp	153
+Il2CppGenericComDefinitions41.cpp	153
+Il2CppGenericComDefinitions42.cpp	153
+Il2CppGenericComDefinitions5.cpp	153
+Il2CppGenericComDefinitions6.cpp	153
+Il2CppGenericComDefinitions7.cpp	153
+Il2CppGenericComDefinitions8.cpp	153
+Il2CppGenericComDefinitions9.cpp	153
+Il2CppGenericMethodPointerTable.cpp	3817877
+Il2CppInteropDataTable.cpp	290268
+Il2CppInvokerTable.cpp	5860480
+Il2CppReversePInvokeWrapperTable.cpp	5107
+Mono.Security_Attr.cpp	32830
+Mono.Security.cpp	149037
+mscorlib_Attr.cpp	890298
+mscorlib.cpp	2369526
+mscorlib1.cpp	2600312
+mscorlib10.cpp	2553660
+mscorlib11.cpp	1729544
+mscorlib12.cpp	1872017
+mscorlib13.cpp	2467669
+mscorlib14.cpp	1937706
+mscorlib15.cpp	2013222
+mscorlib16.cpp	2404793
+mscorlib17.cpp	271244
+mscorlib2.cpp	2246897
+mscorlib3.cpp	1900493
+mscorlib4.cpp	2378857
+mscorlib5.cpp	2311612
+mscorlib6.cpp	2386286
+mscorlib7.cpp	2488050
+mscorlib8.cpp	2005300
+mscorlib9.cpp	2548661
+System_Attr.cpp	91304
+System.Configuration_Attr.cpp	47781
+System.Configuration.cpp	52422
+System.Core_Attr.cpp	59048
+System.Core.cpp	32990
+System.cpp	1466368
+System.Xml_Attr.cpp	52284
+System.Xml.cpp	5978
+System1.cpp	1137756
+System2.cpp	990757
+System3.cpp	672146
+Unity.InputSystem_Attr.cpp	1613004
+Unity.InputSystem.cpp	2731240
+Unity.InputSystem1.cpp	2561458
+Unity.InputSystem10.cpp	903755
+Unity.InputSystem2.cpp	3295745
+Unity.InputSystem3.cpp	2564147
+Unity.InputSystem4.cpp	2574969
+Unity.InputSystem5.cpp	3189323
+Unity.InputSystem6.cpp	2982228
+Unity.InputSystem7.cpp	2870582
+Unity.InputSystem8.cpp	2941019
+Unity.InputSystem9.cpp	3448470
+Unity.Subsystem.Registration_Attr.cpp	10972
+Unity.Subsystem.Registration.cpp	39836
+Unity.XR.ARSubsystems_Attr.cpp	166640
+Unity.XR.ARSubsystems.cpp	992230
+Unity.XR.CoreUtils_Attr.cpp	120671
+Unity.XR.CoreUtils.cpp	1414596
+Unity.XR.Interaction.Toolkit_Attr.cpp	986200
+Unity.XR.Interaction.Toolkit.cpp	3727973
+Unity.XR.Interaction.Toolkit1.cpp	3171218
+Unity.XR.Interaction.Toolkit2.cpp	2541694
+Unity.XR.InteractionSubsystems_Attr.cpp	18360
+Unity.XR.InteractionSubsystems.cpp	123020
+Unity.XR.Management_Attr.cpp	62868
+Unity.XR.Management.cpp	254286
+Unity.XR.Oculus_Attr.cpp	291410
+Unity.XR.Oculus.cpp	905922
+UnityEngine_Attr.cpp	10906
+UnityEngine.AIModule_Attr.cpp	91499
+UnityEngine.AIModule.cpp	25736
+UnityEngine.AndroidJNIModule_Attr.cpp	145832
+UnityEngine.AndroidJNIModule.cpp	678755
+UnityEngine.AnimationModule_Attr.cpp	168478
+UnityEngine.AnimationModule.cpp	272989
+UnityEngine.AssetBundleModule_Attr.cpp	83303
+UnityEngine.AssetBundleModule.cpp	38331
+UnityEngine.AudioModule_Attr.cpp	131123
+UnityEngine.AudioModule.cpp	110203
+UnityEngine.CoreModule_Attr.cpp	1084125
+UnityEngine.CoreModule.cpp	2571837
+UnityEngine.CoreModule1.cpp	2608777
+UnityEngine.cpp	781
+UnityEngine.DirectorModule_Attr.cpp	87883
+UnityEngine.DirectorModule.cpp	23334
+UnityEngine.GridModule_Attr.cpp	96425
+UnityEngine.GridModule.cpp	5679
+UnityEngine.IMGUIModule_Attr.cpp	191811
+UnityEngine.IMGUIModule.cpp	881493
+UnityEngine.InputLegacyModule_Attr.cpp	97106
+UnityEngine.InputLegacyModule.cpp	163777
+UnityEngine.InputModule_Attr.cpp	90124
+UnityEngine.InputModule.cpp	74802
+UnityEngine.JSONSerializeModule_Attr.cpp	87754
+UnityEngine.JSONSerializeModule.cpp	46300
+UnityEngine.LuminModule_Attr.cpp	93558
+UnityEngine.LuminModule.cpp	40910
+UnityEngine.ParticleSystemModule_Attr.cpp	127235
+UnityEngine.ParticleSystemModule.cpp	82393
+UnityEngine.Physics2DModule_Attr.cpp	158810
+UnityEngine.Physics2DModule.cpp	200369
+UnityEngine.PhysicsModule_Attr.cpp	170925
+UnityEngine.PhysicsModule.cpp	250796
+UnityEngine.SharedInternalsModule_Attr.cpp	147701
+UnityEngine.SharedInternalsModule.cpp	207232
+UnityEngine.SpatialTracking_Attr.cpp	31280
+UnityEngine.SpatialTracking.cpp	196073
+UnityEngine.SpriteShapeModule_Attr.cpp	87787
+UnityEngine.SpriteShapeModule.cpp	4654
+UnityEngine.SubsystemsModule_Attr.cpp	117443
+UnityEngine.SubsystemsModule.cpp	239584
+UnityEngine.TerrainModule_Attr.cpp	109810
+UnityEngine.TerrainModule.cpp	294569
+UnityEngine.TextRenderingModule_Attr.cpp	106879
+UnityEngine.TextRenderingModule.cpp	230288
+UnityEngine.TilemapModule_Attr.cpp	121019
+UnityEngine.TilemapModule.cpp	111964
+UnityEngine.UI_Attr.cpp	328862
+UnityEngine.UI.cpp	2621516
+UnityEngine.UI1.cpp	2159011
+UnityEngine.UI2.cpp	2056055
+UnityEngine.UI3.cpp	681127
+UnityEngine.UIElementsModule_Attr.cpp	76318
+UnityEngine.UIElementsModule.cpp	12007
+UnityEngine.UIElementsNativeModule_Attr.cpp	103557
+UnityEngine.UIElementsNativeModule.cpp	115799
+UnityEngine.UIModule_Attr.cpp	124899
+UnityEngine.UIModule.cpp	264785
+UnityEngine.UnityAnalyticsModule_Attr.cpp	98409
+UnityEngine.UnityAnalyticsModule.cpp	78997
+UnityEngine.UnityWebRequestModule_Attr.cpp	86825
+UnityEngine.UnityWebRequestModule.cpp	69082
+UnityEngine.VFXModule_Attr.cpp	129872
+UnityEngine.VFXModule.cpp	105235
+UnityEngine.VideoModule_Attr.cpp	117336
+UnityEngine.VideoModule.cpp	99663
+UnityEngine.VRModule_Attr.cpp	97673
+UnityEngine.VRModule.cpp	28542
+UnityEngine.XR.MagicLeap_Attr.cpp	316816
+UnityEngine.XR.MagicLeap.cpp	3390970
+UnityEngine.XRModule_Attr.cpp	186566
+UnityEngine.XRModule.cpp	617552
+UnresolvedVirtualCallStubs.cpp	855043
+

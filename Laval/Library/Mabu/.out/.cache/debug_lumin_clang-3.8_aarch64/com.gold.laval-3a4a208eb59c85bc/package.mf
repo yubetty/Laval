@@ -1,0 +1,189 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "7b7e7a0f68e23bcd5320b8617c599a78bde9ab6e",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 2906556,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "e1d53af8654b44c405d64ee558284d1e6ca6d376",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 57132880,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/betty/Downloads/privatekey 2/teamgold.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "d43cd6205a0309fbf9a9b5b478cd91673cd05001",
+   "xfrm_path": "/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libil2cpp.so-09d588e85ca0cf90",
+   "xfrm_size": 57133638
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "3b712c908a89b34aad72f55ced0c9078f17aec86",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 4039584,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "096083ce50a90d4590c71f417ee2c122ce3f8430",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 658872,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "949b6152e2162d852bed9c967eb650f9e5011fd6",
+   "pkgpath": "Data/RuntimeInitializeOnLoads.json",
+   "size": 2575,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/RuntimeInitializeOnLoads.json"
+  },
+  {
+   "compression": 8,
+   "hash": "657fe8a51dadb489575c0995024b494f94314a7d",
+   "pkgpath": "Data/ScriptingAssemblies.json",
+   "size": 2784,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/ScriptingAssemblies.json"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "4ee59e5921bfd8dcc0347cbbf587d6ca6b107f05",
+   "pkgpath": "Data/boot.config",
+   "size": 69,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "9a3ba0a134532aadaaf4990b28b9c02c9ad49eb6",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 72748,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "c45e2702dc437e75e9397deb6a4b2aef5480911f",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 151252,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "d6cc2ca6ca9409c0f122d36790174732301b2b40",
+   "pkgpath": "Data/level0",
+   "size": 14152,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "e29459d0ead8837c94c5e52af515f9089a4f6b54",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "ba56b2eba9a37dc58ed4447b82bd5aad57635f5c",
+   "pkgpath": "Data/resources.assets",
+   "size": 4292,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "d87c8f697748c642b749512dc8748bcee27c9d60",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 173720,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "34cfec966cadb4874b47c4bc61d314d26cef08ee",
+   "pkgpath": "bin/Player.elf",
+   "size": 23044232,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/betty/Downloads/privatekey 2/teamgold.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "146895ed396dcdfa4246570293935f46abde3700",
+   "xfrm_path": "/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/Player.elf-1853ea06dec1e364",
+   "xfrm_size": 23044990
+  },
+  {
+   "compression": 8,
+   "hash": "59bd6797802ffe82456c7bab43efc064c5b0f6c2",
+   "pkgpath": "manifest.xml",
+   "size": 511,
+   "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "167dacf5ca7f08485f8a46147fb8a5d1d6f2b1ef",
+     "developer_id": "3adc8952-c3e5-460f-9b64-16b7531fce71"
+    }
+   },
+   "xfrm_hash": "e7c88a203c3fb84c955d44fd2938a10004c9f5b2",
+   "xfrm_path": "/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/manifest.xml-1853ea06dec1e364",
+   "xfrm_size": 524
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/betty/MagicLeap/mlsdk/v0.26.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/betty/Downloads/privatekey 2/teamgold.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "72cf8130e116b379f4c9cf1560bb26d93a54f681",
+   "xfrm_path": "/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libc++_shared.so-3ac92278f91e6908",
+   "xfrm_size": 977590
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/betty/Downloads/privatekey 2/teamgold.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/betty/Downloads/privatekey 2/teamgold.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

@@ -1,0 +1,46 @@
+[com.gold.laval] Laying out DATAS into 'Library/Mabu/.out'...
+mabu: reading data layout cache from '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/layout.mf'
+mabu: skipping unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Player.elf'
+mabu: skipping unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Native/libil2cpp.so'
+mabu: skipping unmodified file '/Users/betty/MagicLeap/mlsdk/v0.26.0/lumin/stl/libc++/lib/libc++_shared.so'
+mabu: wrote data layout cache to '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/layout.mf'
+[com.gold.laval] Creating package 'Library/Mabu/.out/com.gold.laval.mpk'...
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/RuntimeInitializeOnLoads.json'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/ScriptingAssemblies.json'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/boot.config'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/globalgamemanagers.assets'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/level0'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/level0.resS'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/resources.assets'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/sharedassets0.assets'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Resources/unity default resources'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Resources/unity_builtin_extra'
+mabu: not repackaging unmodified file '/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json'
+mabu: setting tail data: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/python3/bin/python3 /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/mabu/src/taildata_v3.py --sbox USER --debuggable /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/Player.elf-1853ea06dec1e364
+mabu: applied tail data to '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/Player.elf-1853ea06dec1e364'
+mabu: running signer tool: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/signer/sign-file sha512 "/Users/betty/Downloads/privatekey 2/teamgold.privkey" "/Users/betty/Downloads/privatekey 2/teamgold.cert" /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/Player.elf-1853ea06dec1e364
+mabu: signed '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/Player.elf-1853ea06dec1e364'
+mabu: setting tail data: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/python3/bin/python3 /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/mabu/src/taildata_v3.py --sbox USER --debuggable /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libc++_shared.so-3ac92278f91e6908
+mabu: applied tail data to '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libc++_shared.so-3ac92278f91e6908'
+mabu: running signer tool: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/signer/sign-file sha512 "/Users/betty/Downloads/privatekey 2/teamgold.privkey" "/Users/betty/Downloads/privatekey 2/teamgold.cert" /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libc++_shared.so-3ac92278f91e6908
+mabu: signed '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libc++_shared.so-3ac92278f91e6908'
+mabu: setting tail data: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/python3/bin/python3 /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/mabu/src/taildata_v3.py --sbox USER --debuggable /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libil2cpp.so-09d588e85ca0cf90
+mabu: applied tail data to '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libil2cpp.so-09d588e85ca0cf90'
+mabu: running signer tool: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/signer/sign-file sha512 "/Users/betty/Downloads/privatekey 2/teamgold.privkey" "/Users/betty/Downloads/privatekey 2/teamgold.cert" /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libil2cpp.so-09d588e85ca0cf90
+mabu: signed '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/libil2cpp.so-09d588e85ca0cf90'
+mabu: transforming manifest
+mabu: set <manifest ml:developer_id="3adc8952-c3e5-460f-9b64-16b7531fce71">
+mabu: updating package entry 'Data/globalgamemanagers'
+mabu: updating package entry 'bin/Player.elf'
+mabu: updating package entry 'bin/libc++_shared.so'
+mabu: updating package entry 'bin/libil2cpp.so'
+mabu: updating package entry 'manifest.xml'
+mabu: updated package file '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/com.gold.laval.mpk'
+mabu: setting tail data: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/python3/bin/python3 /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/mabu/src/taildata_v3.py --sbox USER --debuggable --devcert "/Users/betty/Downloads/privatekey 2/teamgold.cert" /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/com.gold.laval.mpk
+mabu: applied tail data to '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/com.gold.laval.mpk'
+mabu: running signer tool: /Users/betty/MagicLeap/mlsdk/v0.26.0/tools/signer/sign-file sha512 "/Users/betty/Downloads/privatekey 2/teamgold.privkey" "/Users/betty/Downloads/privatekey 2/teamgold.cert" /Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/com.gold.laval.mpk
+mabu: signed '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/com.gold.laval.mpk'
+mabu: wrote package build cache to '/Users/betty/Documents/GitHub/Laval/Laval/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.gold.laval-3a4a208eb59c85bc/package.mf'
+mabu: 'com.gold.laval'

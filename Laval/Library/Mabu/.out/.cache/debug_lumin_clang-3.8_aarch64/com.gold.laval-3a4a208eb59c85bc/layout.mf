@@ -1,0 +1,14 @@
+[
+ {
+  "dest": "bin/libil2cpp.so",
+  "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Data/Native/libil2cpp.so"
+ },
+ {
+  "dest": "bin/Player.elf",
+  "src": "/Users/betty/Documents/GitHub/Laval/Laval/Temp/StagingArea/Player.elf"
+ },
+ {
+  "dest": "bin/libc++_shared.so",
+  "src": "/Users/betty/MagicLeap/mlsdk/v0.26.0/lumin/stl/libc++/lib/libc++_shared.so"
+ }
+]

@@ -1,0 +1,8 @@
+<manifest xmlns:ml="magicleap" ml:package="com.gold.laval" ml:version_code="1" ml:version_name="" ml:developer_id="3adc8952-c3e5-460f-9b64-16b7531fce71">
+  <application ml:sdk_version="1.0" ml:visible_name="Laval" ml:min_api_level="4">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="Laval">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+    <uses-privilege ml:name="LowLatencyLightwear" />
+  </application>
+</manifest>
