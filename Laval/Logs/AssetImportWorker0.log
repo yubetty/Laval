@@ -521,3 +521,516 @@ Received Import Request.
   path: Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Right Controller.preset
   artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65125089cd0625cc6bab119de3db7aad') in 0.005302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.938039 seconds.
+  path: Assets/Magic Leap/Prefabs
+  artifactKey: Guid(9728ea891d7b24fc081a9601ccfedf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs using Guid(9728ea891d7b24fc081a9601ccfedf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8bdee5c3b6ee9488a7f11e1ee63897') in 0.035510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027359 seconds.
+  path: Assets/Magic Leap/Prefabs/ImageTracker.prefab
+  artifactKey: Guid(d27524bbf587be843b52c2a81cb983ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/ImageTracker.prefab using Guid(d27524bbf587be843b52c2a81cb983ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55685bda3df617d08005b3c99827d9a') in 0.075938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Magic Leap/Prefabs/MLContacts.prefab
+  artifactKey: Guid(65476dec6d154ad4c86490fcb850085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/MLContacts.prefab using Guid(65476dec6d154ad4c86490fcb850085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8c69750ab196e03f3b348763142281') in 0.005895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Magic Leap/Prefabs/MLSpatialMapper.prefab
+  artifactKey: Guid(b6af97b52b3429641aa904690975fa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/MLSpatialMapper.prefab using Guid(b6af97b52b3429641aa904690975fa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852c4e4e21492b7e23d3637b0884ba42') in 0.005162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/Magic Leap/Prefabs/MLHandTracking.prefab
+  artifactKey: Guid(6c94f4a72528e324a846f7b9539bf847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/MLHandTracking.prefab using Guid(6c94f4a72528e324a846f7b9539bf847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b2f3c36d9dde6bd1efcd4573b20b7e') in 0.004674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Magic Leap/Prefabs/Raycast.prefab
+  artifactKey: Guid(e6801a2de63af38448df1609d448b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Raycast.prefab using Guid(e6801a2de63af38448df1609d448b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2608495b70795a058ba148ce64a8c1a1') in 0.009140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Magic Leap/Prefabs/MLWorldPlanes.prefab
+  artifactKey: Guid(195e01f115a2b9649ac2d54f14dcd781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/MLWorldPlanes.prefab using Guid(195e01f115a2b9649ac2d54f14dcd781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fcf38fb756f0f67014d262b709233b') in 0.006194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Magic Leap/Prefabs/Main Camera.prefab
+  artifactKey: Guid(f87231bf9b842411fbce23239e1b4baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Main Camera.prefab using Guid(f87231bf9b842411fbce23239e1b4baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10703ad2411d463ba62c224555cde03') in 0.013779 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/betty/Documents/GitHub/Laval/Laval/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.87 ms.
+2022-04-11 23:32:50.740 Unity[62280:1442911] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000071d960 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3481ms)
+		BeginReloadAssembly (573ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (70ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (235ms)
+		EndReloadAssembly (2796ms)
+			LoadAssemblies (501ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (510ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (311ms)
+				ProcessInitializeOnLoadAttributes (999ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 3948 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.3 MB.
+System memory in use after: 331.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 4443.
+Total: 6.325625 ms (FindLiveObjects: 0.401042 ms CreateObjectMapping: 0.187125 ms MarkObjects: 3.778541 ms  DeleteObjects: 1.956458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 230.345111 seconds.
+  path: Assets/Magic Leap/Prefabs/DeepSpaceExplorer.prefab
+  artifactKey: Guid(787df8bd9996bf04c9fbbaa5776694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/DeepSpaceExplorer.prefab using Guid(787df8bd9996bf04c9fbbaa5776694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b5d4a2445d3280beebbe8683be3a0c') in 0.170815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Magic Leap/Prefabs/PersistentBall.prefab
+  artifactKey: Guid(e684ee23075278443835c2eb7da16b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/PersistentBall.prefab using Guid(e684ee23075278443835c2eb7da16b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aad28f229b7d89cc6f1a46400a6075') in 0.020720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Magic Leap/Prefabs/SpherePrimitive.prefab
+  artifactKey: Guid(9ea5b38899d28c24ea33cf9f3476f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/SpherePrimitive.prefab using Guid(9ea5b38899d28c24ea33cf9f3476f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8fd35b0c739908c64eae725abfead') in 0.007572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Magic Leap/Prefabs/Cursor.prefab
+  artifactKey: Guid(29528ee004f08ee43824470a516967c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Cursor.prefab using Guid(29528ee004f08ee43824470a516967c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693a9bde055bab9289ef205f425d3b0a') in 0.004343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Magic Leap/Prefabs/MobileAppController.prefab
+  artifactKey: Guid(23be1615fdbf7084cadd8e8c431db908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/MobileAppController.prefab using Guid(23be1615fdbf7084cadd8e8c431db908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bb1ec1e97a9832f942e935041b21bc') in 0.050053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Magic Leap/Prefabs/Controller.prefab
+  artifactKey: Guid(6884f69ad0adbb441905ff499f5d1ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Controller.prefab using Guid(6884f69ad0adbb441905ff499f5d1ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d0d9607d737f5446e65d14ff067e0a') in 0.004081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Magic Leap/Prefabs/DistanceMarker.prefab
+  artifactKey: Guid(e9c3e6537dc913f45a76657765a6aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/DistanceMarker.prefab using Guid(e9c3e6537dc913f45a76657765a6aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c4152e23b788fc237b8fdfbededb6c') in 0.003561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Magic Leap/Prefabs/PCFVisualizer.prefab
+  artifactKey: Guid(9bd30054cdb3848439656c4a12ae4f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/PCFVisualizer.prefab using Guid(9bd30054cdb3848439656c4a12ae4f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efe7499215030bb562e5268db60bb6d') in 0.003008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Magic Leap/Prefabs/ContactAttributeItem.prefab
+  artifactKey: Guid(20392f119d8362b4994787ab0e374489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/ContactAttributeItem.prefab using Guid(20392f119d8362b4994787ab0e374489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e601ae6e7d0e5cdfd3665d33a26af21') in 0.021932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Magic Leap/Prefabs/Spinner.prefab
+  artifactKey: Guid(c09d817fdb0ee7d4499cfad91bbb0ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Spinner.prefab using Guid(c09d817fdb0ee7d4499cfad91bbb0ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6ff8465675b6bd3f63d1f4693f2fcb') in 0.004057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Magic Leap/Prefabs/WacomTabletVisualizer.prefab
+  artifactKey: Guid(8d5f547699d914c888166571fc1b0a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/WacomTabletVisualizer.prefab using Guid(8d5f547699d914c888166571fc1b0a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4629b9169d907e047029589b9bbca83') in 0.005574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Magic Leap/Prefabs/GemMarker.prefab
+  artifactKey: Guid(2b539d79887b4e243b8276392bc90fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/GemMarker.prefab using Guid(2b539d79887b4e243b8276392bc90fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf4603099987d0fa56fb31df5ef20d4') in 0.003110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Magic Leap/Prefabs/PCFVisual.prefab
+  artifactKey: Guid(92d8cbcc4e864274ca705591d81f8240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/PCFVisual.prefab using Guid(92d8cbcc4e864274ca705591d81f8240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e533dbd9af03fffe83069485210a889c') in 0.006796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Magic Leap/Prefabs/PrivilegeRequester.prefab
+  artifactKey: Guid(df93b5e375669414790845a6db77aeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/PrivilegeRequester.prefab using Guid(df93b5e375669414790845a6db77aeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201d6f26f76fd28314f9f5a9cffe9ea0') in 0.004602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Magic Leap/Prefabs/ControllerConectionHandler.prefab
+  artifactKey: Guid(4b13f92626657f949936c461c3c3182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/ControllerConectionHandler.prefab using Guid(4b13f92626657f949936c461c3c3182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a58195d876646cce866b499d91817ef') in 0.003042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Magic Leap/Prefabs/VirtualKeyboard.prefab
+  artifactKey: Guid(62aab9b992d81974e98b870ecda06bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/VirtualKeyboard.prefab using Guid(62aab9b992d81974e98b870ecda06bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d1c08e504d09623a29afe5d0ee3837') in 0.036977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Magic Leap/Prefabs/Tracking_Cube.prefab
+  artifactKey: Guid(32305cf948ccfa542879ef9ff007f5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Tracking_Cube.prefab using Guid(32305cf948ccfa542879ef9ff007f5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9a5db2cd6ef472ac115b1996e84cf9') in 0.003076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Magic Leap/Prefabs/PersistentContentDestroyed.prefab
+  artifactKey: Guid(c2be29d1fdb54da48824088fe1dde67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/PersistentContentDestroyed.prefab using Guid(c2be29d1fdb54da48824088fe1dde67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25dbd879917e3753a949e20c4bbd6b6') in 0.192273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Magic Leap/Prefabs/MeshingSampleBall.prefab
+  artifactKey: Guid(0b46e96b48f596a4abe7013197e2fe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/MeshingSampleBall.prefab using Guid(0b46e96b48f596a4abe7013197e2fe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c2b4bc443de6aa0e5603009f979e1') in 0.003361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Magic Leap/Prefabs/PlaneVisual.prefab
+  artifactKey: Guid(d0351538d524663448f7c5b7db4a371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/PlaneVisual.prefab using Guid(d0351538d524663448f7c5b7db4a371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6884f7799674f0dc19b95e6da8e3f88') in 0.006245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Magic Leap/Prefabs/ContactItem.prefab
+  artifactKey: Guid(e1327dd5fc6f2d247879fc3afeb5590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/ContactItem.prefab using Guid(e1327dd5fc6f2d247879fc3afeb5590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff881d22f4967bae7fa4c7d4739c1ab') in 0.003263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Magic Leap/Prefabs/ContactsVisualizer.prefab
+  artifactKey: Guid(81d0731dc8eb8eb4dabd4435c2297913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/ContactsVisualizer.prefab using Guid(81d0731dc8eb8eb4dabd4435c2297913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e701dc1a904ea256b564b2fda8c3f579') in 0.006914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Magic Leap/Prefabs/DeepSpaceExplorerPlanet.prefab
+  artifactKey: Guid(73bf8012fc57b72478571e19ed503ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/DeepSpaceExplorerPlanet.prefab using Guid(73bf8012fc57b72478571e19ed503ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490a2bf2b8a73db5aed3b7311c57651a') in 0.003053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Magic Leap/Prefabs/DeepSeaExplorerLauncher.prefab
+  artifactKey: Guid(73680f7d1a9dadb40bb5ce6abd58e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/DeepSeaExplorerLauncher.prefab using Guid(73680f7d1a9dadb40bb5ce6abd58e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6660907182a1a00d825734387725afc2') in 0.003052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Magic Leap/Prefabs/ImageTrackerVisualizer.prefab
+  artifactKey: Guid(1c006f953eda23f41b97d4167b477e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/ImageTrackerVisualizer.prefab using Guid(1c006f953eda23f41b97d4167b477e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158839670c7ef5353f62b8d5b5da196c') in 0.003750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Magic Leap/Prefabs/DeepSeaExplorer.prefab
+  artifactKey: Guid(f1e854ec1a6715e4086f0efb1215f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/DeepSeaExplorer.prefab using Guid(f1e854ec1a6715e4086f0efb1215f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9760101f156944899896f5cf014babef') in 0.008298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Magic Leap/Prefabs/RaycastVisualizer.prefab
+  artifactKey: Guid(cdf80d4bea0bfe340befeb60fe22fa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/RaycastVisualizer.prefab using Guid(cdf80d4bea0bfe340befeb60fe22fa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd6cfcbf1fe82d4320081736550ba87') in 0.003156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Magic Leap/Prefabs/Ruler.prefab
+  artifactKey: Guid(3d8d589e6076ef249a9f32784cf3742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Ruler.prefab using Guid(3d8d589e6076ef249a9f32784cf3742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5330bbb104f0b6dc15f2369647e6f5') in 0.003041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Magic Leap/Prefabs/HandMesh.prefab
+  artifactKey: Guid(4f3fc2f13524d034db533d86c259486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/HandMesh.prefab using Guid(4f3fc2f13524d034db533d86c259486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3983d5d60fa00fc76c7b5dcc592d0f0') in 0.005383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Magic Leap/Prefabs/ControllerStatus.prefab
+  artifactKey: Guid(3aae518756c7a3c46bf2b24558dc5b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/ControllerStatus.prefab using Guid(3aae518756c7a3c46bf2b24558dc5b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9100bdd88e8b6e8bd337c7a39bfda8') in 0.003983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Magic Leap/Prefabs/HeadposeCanvas.prefab
+  artifactKey: Guid(dcbf1437f0912414da095cb522586e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/HeadposeCanvas.prefab using Guid(dcbf1437f0912414da095cb522586e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c71972604d2a4956b5018f352a4262') in 0.003917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Magic Leap/Prefabs/HandVisualizer.prefab
+  artifactKey: Guid(7db5f263d5fb4944aae1ca2478e40124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/HandVisualizer.prefab using Guid(7db5f263d5fb4944aae1ca2478e40124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae62230f1ff39148f21a1e152d091a25') in 0.018456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Magic Leap/Prefabs/DeepSpaceExplorerLauncher.prefab
+  artifactKey: Guid(ea3db0935507c384093f344b405b9e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/DeepSpaceExplorerLauncher.prefab using Guid(ea3db0935507c384093f344b405b9e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307070c5612766be2258d39cabca21fb') in 0.003076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.729369 seconds.
+  path: Assets/Magic Leap/Prefabs/WireframeCube.prefab
+  artifactKey: Guid(869fbdf6b6425694eb465928f60e4646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/WireframeCube.prefab using Guid(869fbdf6b6425694eb465928f60e4646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920000f08c61ff8152d75a7f65ba2f05') in 0.008539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Magic Leap/Prefabs/WorldPlanesVisualizer.prefab
+  artifactKey: Guid(336143c28feaece478bf9cdef461a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/WorldPlanesVisualizer.prefab using Guid(336143c28feaece478bf9cdef461a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef037541152bcf28ec43de32a735c7a') in 0.005602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.922051 seconds.
+  path: Assets/Magic Leap/Prefabs/MobileAppController.prefab
+  artifactKey: Guid(23be1615fdbf7084cadd8e8c431db908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/MobileAppController.prefab using Guid(23be1615fdbf7084cadd8e8c431db908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b346e2af86dc5f0b743fc239ea18ea3') in 0.129343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Magic Leap/Prefabs/WacomTabletVisualizer.prefab
+  artifactKey: Guid(8d5f547699d914c888166571fc1b0a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/WacomTabletVisualizer.prefab using Guid(8d5f547699d914c888166571fc1b0a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e8a70a41a8628ace81884de3074011') in 0.005437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.512784 seconds.
+  path: Assets/Magic Leap/Prefabs/Resources/PrivilegeDeniedError.prefab
+  artifactKey: Guid(095890d8c9bde1a45b549a17e6e6f961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Prefabs/Resources/PrivilegeDeniedError.prefab using Guid(095890d8c9bde1a45b549a17e6e6f961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c661d28ebfb9ded7f25d940e172fbdf') in 0.030645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.042039 seconds.
+  path: Assets/Magic Leap/Models/Controller
+  artifactKey: Guid(34bf67ef1eaf949ae96d8cd8c308ac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller using Guid(34bf67ef1eaf949ae96d8cd8c308ac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be03c9508941bf5d5f15efc1427e2be') in 0.007341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.038073 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials
+  artifactKey: Guid(af96fde039375ba46b9191dd4e5e89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials using Guid(af96fde039375ba46b9191dd4e5e89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b273df3881e42bbd164098bcbe67443c') in 0.006068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056285 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/Controller.mat
+  artifactKey: Guid(d89a73bc826d4d248b1cde764731779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/Controller.mat using Guid(d89a73bc826d4d248b1cde764731779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e448dcabb4b300d9ec7c6a67fe82ae') in 0.362721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/MobileDevice_Dot_Grid.mat
+  artifactKey: Guid(13eafd56208ff3b43a7b9df3fb279794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/MobileDevice_Dot_Grid.mat using Guid(13eafd56208ff3b43a7b9df3fb279794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016d5555525c760b8b1e78e3cfff1c89') in 0.014523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/MobileDevice.mat
+  artifactKey: Guid(39518081c3690494380a8dece4faef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/MobileDevice.mat using Guid(39518081c3690494380a8dece4faef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dad36573e9e06763cdde9abbd0024e2') in 0.015875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/MobileDevice_Leaper.mat
+  artifactKey: Guid(4931dee9c1bb8324ca1f58a6649eb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/MobileDevice_Leaper.mat using Guid(4931dee9c1bb8324ca1f58a6649eb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecae6d54094bb3970e597dc145f78d3') in 0.292107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/MobileDevice_Button.mat
+  artifactKey: Guid(e37bbdaf5fb1fee4aac5a619d6e53a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/MobileDevice_Button.mat using Guid(e37bbdaf5fb1fee4aac5a619d6e53a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a9cacdec3f0119497a0185f4448bf6') in 0.012399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/TouchpadArrow.mat
+  artifactKey: Guid(0b98aa06d95ff43ad9a0b9cf9003c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/TouchpadArrow.mat using Guid(0b98aa06d95ff43ad9a0b9cf9003c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b10f67934bf9acbdb10e43cd8d8fd5') in 0.273529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/DepthMask.mat
+  artifactKey: Guid(e887ade6c40807047a86f5632bd21680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/DepthMask.mat using Guid(e887ade6c40807047a86f5632bd21680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510a7d1cb0728409ef41f2905b1ae300') in 0.025255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Magic Leap/Models/Controller/Materials/Touchpad.mat
+  artifactKey: Guid(b605e4607075f3b4c8addeb0540d2910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Leap/Models/Controller/Materials/Touchpad.mat using Guid(b605e4607075f3b4c8addeb0540d2910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0027f56bce34fd90da4db55cf66435b7') in 0.008199 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004509 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/betty/Documents/GitHub/Laval/Laval/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 4.35 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.09 ms.
+2022-04-11 23:42:04.092 Unity[62280:1442911] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000725f80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3686ms)
+		BeginReloadAssembly (462ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (54ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (206ms)
+		EndReloadAssembly (3087ms)
+			LoadAssemblies (350ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1635ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (498ms)
+				ProcessInitializeOnLoadAttributes (1082ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 337.2 MB.
+System memory in use after: 332.9 MB.
+
+Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 4453.
+Total: 6.901667 ms (FindLiveObjects: 0.233875 ms CreateObjectMapping: 0.147208 ms MarkObjects: 4.316125 ms  DeleteObjects: 2.202459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008218 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/betty/Documents/GitHub/Laval/Laval/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+2022-04-11 23:44:21.056 Unity[62280:1442911] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000702ed0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3129ms)
+		BeginReloadAssembly (436ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (57ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (2587ms)
+			LoadAssemblies (335ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (309ms)
+				ProcessInitializeOnLoadAttributes (957ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 3949 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 337.3 MB.
+System memory in use after: 333.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 4457.
+Total: 4.836750 ms (FindLiveObjects: 0.231542 ms CreateObjectMapping: 0.109417 ms MarkObjects: 2.529583 ms  DeleteObjects: 1.965375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
