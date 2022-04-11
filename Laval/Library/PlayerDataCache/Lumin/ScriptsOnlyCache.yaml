@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    LuminUnity.dll:
+    - UnityEngine.XR.MagicLeap.MLSceneOptimizerBehavior
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -9,8 +11,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.XR.TrackedPoseDriver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
     Unity.XR.Interaction.Toolkit.Editor.dll:
@@ -38,8 +38,14 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEditor.XR.MagicLeap.dll:
+    - UnityEditor.XR.MagicLeap.MagicLeapManifestSettings
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.XR.MagicLeap.dll:
+    - UnityEngine.XR.MagicLeap.MagicLeapLoader
     - UnityEngine.XR.MagicLeap.MagicLeapSettings
+    - UnityEngine.XR.MagicLeap.Rendering.MagicLeapCamera
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -71,33 +77,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 438}
-    - Class: 114
       Script: {instanceID: 442}
     - Class: 114
-      Script: {instanceID: 448}
+      Script: {instanceID: 446}
     - Class: 114
-      Script: {instanceID: 7708}
+      Script: {instanceID: 452}
     - Class: 114
-      Script: {instanceID: 8392}
+      Script: {instanceID: 2030}
     - Class: 114
-      Script: {instanceID: 9104}
+      Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 9680}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 10188}
+      Script: {instanceID: 4454}
     - Class: 114
-      Script: {instanceID: 10190}
+      Script: {instanceID: 5078}
     - Class: 114
-      Script: {instanceID: 10278}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 10394}
+      Script: {instanceID: 5180}
     - Class: 114
-      Script: {instanceID: 10778}
+      Script: {instanceID: 5314}
     - Class: 114
-      Script: {instanceID: 10956}
+      Script: {instanceID: 5772}
     - Class: 114
-      Script: {instanceID: 11084}
+      Script: {instanceID: 5978}
+    - Class: 114
+      Script: {instanceID: 6154}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -135,6 +141,18 @@ ScriptsOnlyBuild:
     className: ActionBasedSnapTurnProvider
   - hash:
       serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEditor.XR.LegacyInputHelpers
@@ -169,6 +187,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
     className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: f94949dacf4cacfa4f3a2e983f137942
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLInputRaycasterBehavior
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -213,6 +237,12 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
+      Hash: 7fc9e11cc6d2944254bf4047c94916cc
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLPrivilegeRequesterBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -223,6 +253,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: fee615065f788ccab7eb27cfbf5d3945
+    assemblyName: LuminUnity.dll
+    namespaceName: 
+    className: FPSDisplay
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -261,10 +297,34 @@ ScriptsOnlyBuild:
     className: XRInteractorLineVisual
   - hash:
       serializedVersion: 2
+      Hash: 63911722392c3b282ebec1129e41411d
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLHandMeshingBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 764c0a7832e49c99f02ccbfd08d6fec8
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap
+    className: MLWebRTCVideoSinkBehavior
+  - hash:
+      serializedVersion: 2
       Hash: cbcba329b6375fc80724cdb84c225697
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: TeleportationArea
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 22c14ebe1905062a8b7a1c4bf27e5b90
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLInputModuleBehavior
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -279,10 +339,10 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
+      Hash: 6ea66aafcaead7e84edaff2d5a08c04a
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLImageTrackerBehavior
   - hash:
       serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
@@ -297,16 +357,40 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
+      Hash: 220aad3ab64f4d4603466112e0135e4b
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLControllerConnectionHandlerBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 25ec9314fcfe6a30cf53eb98bc10a4e2
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLHeadposeCanvasBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 0ba4f852acbdf2f4c8742687e6bd7efb
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: TeleportationAnchor
   - hash:
       serializedVersion: 2
+      Hash: 2826002dd258f7d5945c611f213e8a85
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap
+    className: MLMediaPlayerCEA708Parser
+  - hash:
+      serializedVersion: 2
       Hash: e2549d3a59249ea600e260df1932d6f7
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: TrackedDevicePhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLMediaPlayer
   - hash:
       serializedVersion: 2
       Hash: 44482dbb332b1e4db8aaa72d0b4f49ad
@@ -321,10 +405,22 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 1ae487527e556f510d11152be2acc804
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLMovementSettingsManagerBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 295831406da5907d41f58d84acd55d8d
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 6652d364f13f12c26413e5a1568e191e
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLMovementColliderBehavior
   - hash:
       serializedVersion: 2
       Hash: fc169718e5fd24cea7425f24908c0418
@@ -355,6 +451,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 597b93d918ec3624d540d62dd24648c5
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLHandTrackingBehavior
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -393,10 +495,34 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapInput
+  - hash:
+      serializedVersion: 2
+      Hash: 3443de056ecddd5d4521f7470540caf6
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLWorldScaleBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 1f880cc188f7f5eb5592d4bf4f57fef5
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: CharacterControllerDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 85460058fe5af362f436b46a942f36c3
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap
+    className: MLMRCameraBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 0c5108545fb925730d4d5887ebcdd20c
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceObjectLibrary
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -549,6 +675,12 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: 47118370b49a41c42d52172cd0330ec3
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLFoundObjectsBehavior
+  - hash:
+      serializedVersion: 2
       Hash: c2c69f9b9053f8291b360c082a9bc2ac
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -597,10 +729,10 @@ ScriptsOnlyBuild:
     className: OculusLoader
   - hash:
       serializedVersion: 2
-      Hash: d251bf88db6c95a6b1aa0b69298da9ef
-    assemblyName: UnityEngine.SpatialTracking.dll
-    namespaceName: UnityEngine.SpatialTracking
-    className: TrackedPoseDriver
+      Hash: e1a6e1996acf182aaed1ec7f22b3191c
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLPlanesBehavior
   - hash:
       serializedVersion: 2
       Hash: 5aea7b360f47fa710e993f05cfdace3e
@@ -661,6 +793,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRDirectInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 254fcee3f8a4e0565999a445646b889f
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLArucoTrackerBehavior
   - hash:
       serializedVersion: 2
       Hash: 8ab9295d94483c961936d82d233d3df2
@@ -741,6 +879,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: a298ff9ff3b3dae397799678c2360f43
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLRaycastBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 63e8494d8961e584a57c5e4286e89c75
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -813,6 +957,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 9b0f995129a0a61fe830065203c17db2
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap
+    className: MLMusicServiceBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -843,6 +993,12 @@ ScriptsOnlyBuild:
     className: LocomotionSystem
   - hash:
       serializedVersion: 2
+      Hash: 1e6892175cf1b4b3aae4897fbabf078d
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLSpatialMapper
+  - hash:
+      serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -867,10 +1023,34 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLDevice
+  - hash:
+      serializedVersion: 2
+      Hash: 01473135d671a71d740e507b04eb93da
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceImageLibrary
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 38f77c985750210841fdee13fece061f
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLMovementBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: d9e963ad9ad2bd2a075ddb31551b8da4
+    assemblyName: LuminUnity.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLSceneOptimizerBehavior
   - hash:
       serializedVersion: 2
       Hash: 426e5bd616852254b77531cd1a8e29b6
@@ -885,10 +1065,22 @@ ScriptsOnlyBuild:
     className: XRDeviceSimulator
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap.Core
+    className: MLContactsBehavior
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 479fb1a82a3de0bd365ddced5010945a
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapSettings
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -913,6 +1105,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: ecea9ebdb7d192914758ace545d4fde5
+    assemblyName: LuminUnity.dll
+    namespaceName: MagicLeap
+    className: MLWebRTCAudioSinkBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 83416c2f4423f78ae21db484905b553a
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap.Rendering
+    className: MagicLeapCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 1cd7de7521dc2fdca0e4ea3e13c1c8d9
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapGestures
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -955,55 +1165,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: XRUIInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.XR.MagicLeap.dll
-    namespaceName: UnityEngine.XR.MagicLeap
-    className: MagicLeapLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 83416c2f4423f78ae21db484905b553a
-    assemblyName: UnityEngine.XR.MagicLeap.dll
-    namespaceName: UnityEngine.XR.MagicLeap.Rendering
-    className: MagicLeapCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 1e6892175cf1b4b3aae4897fbabf078d
-    assemblyName: UnityEngine.XR.MagicLeap.dll
-    namespaceName: UnityEngine.XR.MagicLeap
-    className: MLSpatialMapper
-  - hash:
-      serializedVersion: 2
-      Hash: 1cd7de7521dc2fdca0e4ea3e13c1c8d9
-    assemblyName: UnityEngine.XR.MagicLeap.dll
-    namespaceName: UnityEngine.XR.MagicLeap
-    className: MagicLeapGestures
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.XR.MagicLeap.dll
-    namespaceName: UnityEngine.XR.MagicLeap
-    className: MagicLeapInput
-  - hash:
-      serializedVersion: 2
-      Hash: 01473135d671a71d740e507b04eb93da
-    assemblyName: Unity.XR.ARSubsystems.dll
-    namespaceName: UnityEngine.XR.ARSubsystems
-    className: XRReferenceImageLibrary
-  - hash:
-      serializedVersion: 2
-      Hash: 0c5108545fb925730d4d5887ebcdd20c
-    assemblyName: Unity.XR.ARSubsystems.dll
-    namespaceName: UnityEngine.XR.ARSubsystems
-    className: XRReferenceObjectLibrary
-  - hash:
-      serializedVersion: 2
-      Hash: 479fb1a82a3de0bd365ddced5010945a
-    assemblyName: UnityEngine.XR.MagicLeap.dll
-    namespaceName: UnityEngine.XR.MagicLeap
-    className: MagicLeapSettings
   platform: 39
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/betty/Desktop/test1.mpk
+  playerPath: /Users/betty/Desktop/test2.mpk

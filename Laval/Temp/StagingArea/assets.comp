@@ -12,6 +12,10 @@ DATAS = \
 	Data/sharedassets0.assets \
 	Data/Managed/Metadata/global-metadata.dat \
 	Data/Native/libil2cpp.so : bin/libil2cpp.so \
+	Data/Plugins/UnityMagicLeap.so : bin/UnityMagicLeap.so \
+	Data/Plugins/libml_bluetoothle_plugin.so : bin/libml_bluetoothle_plugin.so \
+	Data/Plugins/libml_camera_plugin.so : bin/libml_camera_plugin.so \
+	Data/Plugins/libml_mediaplayer_plugin.so : bin/libml_mediaplayer_plugin.so \
 	Data/Resources/mscorlib.dll-resources.dat \
 	"Data/Resources/unity default resources" \
 	Data/Resources/unity_builtin_extra \

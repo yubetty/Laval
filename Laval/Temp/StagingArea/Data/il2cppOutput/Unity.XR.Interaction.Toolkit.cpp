@@ -39164,7 +39164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScriptableSettingsBase_t3BB0B2844F4C66A113A74
 		// return (ScriptableSettingsBase)instanceProperty.GetValue(null, null);
 		NullCheck(L_1);
 		RuntimeObject * L_2;
-		L_2 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(24 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_1, NULL, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
+		L_2 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(26 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_1, NULL, (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)NULL);
 		return ((ScriptableSettingsBase_t3BB0B2844F4C66A113A74AACD19B1837F7F6CEF2 *)CastclassClass((RuntimeObject*)L_2, ScriptableSettingsBase_t3BB0B2844F4C66A113A74AACD19B1837F7F6CEF2_il2cpp_TypeInfo_var));
 	}
 }

@@ -423,6 +423,13 @@
             ]
         },
         {
+            "managedAssemblyName": "LuminUnity.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.MagicLeap.MLSceneOptimizerBehavior",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Unity.InputSystem.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.InputSystem.InputActionAsset",
@@ -570,9 +577,30 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.XR.MagicLeap.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.MagicLeap.MagicLeapLoader",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.XR.MagicLeap.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.MagicLeap.MagicLeapSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.XR.MagicLeap.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.MagicLeap.Rendering.MagicLeapCamera",
             "moduleName": "",
             "usedInScenes": []
         }

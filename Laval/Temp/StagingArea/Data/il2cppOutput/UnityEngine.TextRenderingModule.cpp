@@ -108,6 +108,8 @@ struct String_t;
 struct TextGenerationSettings_tAD927E4DCB8644B1B2BB810B5FB13C90B753898A;
 // UnityEngine.TextGenerator
 struct TextGenerator_t893F256D3587633108E00E5731CDC5A77AFF1B70;
+// UnityEngine.TextMesh
+struct TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 // UnityEngine.Font/FontTextureRebuildCallback
@@ -178,6 +180,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* TextGenerator_get_lines_m3277C5BEA1392607B3
 IL2CPP_EXTERN_C const RuntimeMethod* TextGenerator_get_rectExtents_Injected_m8D58D2455AC5997ADE354CFA9466782EB6B31AB6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextGenerator_get_rectExtents_m2573486A6322644F0EA3FB2AE05C5D5C52BC285B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextGenerator_get_verts_m24E5F72EF4BB465321EA39A7B87285B48B423131_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIVertex__cctor_m0354096E8F1EBF96E7089A869E74F4BCEAD4BDE4_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -1761,6 +1764,15 @@ public:
 };
 
 
+// UnityEngine.Component
+struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.Font
 struct Font_tB53D3F362CB1A0B92307B362826F212AE2D2A6A9  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
@@ -2247,6 +2259,15 @@ struct TextGenerator_t893F256D3587633108E00E5731CDC5A77AFF1B70_marshaled_com
 	int32_t ___m_CachedCharacters_9;
 	int32_t ___m_CachedLines_10;
 };
+
+// UnityEngine.TextMesh
+struct TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+{
+public:
+
+public:
+};
+
 
 // UnityEngine.Font/FontTextureRebuildCallback
 struct FontTextureRebuildCallback_tBF11A511EBD8D237A1C5885D460B42A45DDBB2DB  : public MulticastDelegate_t
@@ -4327,6 +4348,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_Injected
 	_il2cpp_icall_func = (TextGenerator_Populate_Internal_Injected_m521AC47E26C872BEDDC23AF447EEA2E45EE088F3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextGenerator::Populate_Internal_Injected(System.String,UnityEngine.Font,UnityEngine.Color&,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.TextAnchor,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.UInt32&)");
 	bool icallRetVal = _il2cpp_icall_func(__this, ___str0, ___font1, ___color2, ___fontSize3, ___scaleFactor4, ___lineSpacing5, ___style6, ___richText7, ___resizeTextForBestFit8, ___resizeTextMinSize9, ___resizeTextMaxSize10, ___verticalOverFlow11, ___horizontalOverflow12, ___updateBounds13, ___anchor14, ___extentsX15, ___extentsY16, ___pivotX17, ___pivotY18, ___generateOutOfBounds19, ___alignByGeometry20, ___error21);
 	return icallRetVal;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.TextMesh::set_text(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04 (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04_RuntimeMethod_var);
+	typedef void (*TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04_ftn) (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 *, String_t*);
+	static TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextMesh::set_text(System.String)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
