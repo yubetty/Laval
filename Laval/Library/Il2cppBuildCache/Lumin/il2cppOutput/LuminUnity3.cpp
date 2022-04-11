@@ -34305,7 +34305,7 @@ IL_000a:
 		String_t* L_9;
 		L_9 = String_Format_mB3D38E5238C3164DB4D7D29339D9E225A4496D17(_stringLiteral52C18790685505D43EED91FF98FC7129D2CF0EBA, L_8, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_5, L_9);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_5, L_9);
 		// if (fps >= 24f)
 		float L_10 = V_0;
 		if ((!(((float)L_10) >= ((float)(24.0f)))))

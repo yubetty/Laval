@@ -140,9 +140,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* NativeClassAttribute__ctor_m09D17E5BEBF83C3
 IL2CPP_EXTERN_C const RuntimeMethod* NativeClassAttribute__ctor_mE1C1EED35F711F3880A51B29C1A019CC46991CD4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeClassAttribute_set_Declaration_mF6FF1EB7079637160DA617FC4318EAD490409A3A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeClassAttribute_set_QualifiedNativeName_mFC347A2EBD44977DFEA72A9B37C0ADECF1150262_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeConditionalAttribute__ctor_m28DDCA8C9EB60300B6B558FF4A3B0E9D915F4A5D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeConditionalAttribute__ctor_m2D44C123AE8913373A143BBE663F4DEF8D21DEF9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeConditionalAttribute_set_Condition_m380CB2CFC2874DA64DA0D2934FCD35923924E09C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeConditionalAttribute_set_Enabled_mC5611EF1236F6AC1925997C39993F249D9F86581_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeConditionalAttribute_set_StubReturnStatement_m71BF07ECA8A32AC203CF83AE3ED7CE3DD55BD57C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeHeaderAttribute__ctor_m0E83F29C5939F185D6E90541591802EB2845FD76_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeHeaderAttribute_set_Header_mAA0DA2ACAF3BF508D3997CCA9CE41736C8293C7D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeMethodAttribute__ctor_m7F91BF50E5248D4FC3B6938488ABA3F1A883B825_RuntimeMethod_var;
@@ -964,8 +966,10 @@ struct NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B  : p
 public:
 	// System.String UnityEngine.Bindings.NativeConditionalAttribute::<Condition>k__BackingField
 	String_t* ___U3CConditionU3Ek__BackingField_0;
+	// System.String UnityEngine.Bindings.NativeConditionalAttribute::<StubReturnStatement>k__BackingField
+	String_t* ___U3CStubReturnStatementU3Ek__BackingField_1;
 	// System.Boolean UnityEngine.Bindings.NativeConditionalAttribute::<Enabled>k__BackingField
-	bool ___U3CEnabledU3Ek__BackingField_1;
+	bool ___U3CEnabledU3Ek__BackingField_2;
 
 public:
 	inline static int32_t get_offset_of_U3CConditionU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B, ___U3CConditionU3Ek__BackingField_0)); }
@@ -977,12 +981,21 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CConditionU3Ek__BackingField_0), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CEnabledU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B, ___U3CEnabledU3Ek__BackingField_1)); }
-	inline bool get_U3CEnabledU3Ek__BackingField_1() const { return ___U3CEnabledU3Ek__BackingField_1; }
-	inline bool* get_address_of_U3CEnabledU3Ek__BackingField_1() { return &___U3CEnabledU3Ek__BackingField_1; }
-	inline void set_U3CEnabledU3Ek__BackingField_1(bool value)
+	inline static int32_t get_offset_of_U3CStubReturnStatementU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B, ___U3CStubReturnStatementU3Ek__BackingField_1)); }
+	inline String_t* get_U3CStubReturnStatementU3Ek__BackingField_1() const { return ___U3CStubReturnStatementU3Ek__BackingField_1; }
+	inline String_t** get_address_of_U3CStubReturnStatementU3Ek__BackingField_1() { return &___U3CStubReturnStatementU3Ek__BackingField_1; }
+	inline void set_U3CStubReturnStatementU3Ek__BackingField_1(String_t* value)
 	{
-		___U3CEnabledU3Ek__BackingField_1 = value;
+		___U3CStubReturnStatementU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CStubReturnStatementU3Ek__BackingField_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CEnabledU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B, ___U3CEnabledU3Ek__BackingField_2)); }
+	inline bool get_U3CEnabledU3Ek__BackingField_2() const { return ___U3CEnabledU3Ek__BackingField_2; }
+	inline bool* get_address_of_U3CEnabledU3Ek__BackingField_2() { return &___U3CEnabledU3Ek__BackingField_2; }
+	inline void set_U3CEnabledU3Ek__BackingField_2(bool value)
+	{
+		___U3CEnabledU3Ek__BackingField_2 = value;
 	}
 };
 
@@ -2181,6 +2194,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Dec
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Condition_m380CB2CFC2874DA64DA0D2934FCD35923924E09C_inline (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Bindings.NativeConditionalAttribute::set_Enabled(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_mC5611EF1236F6AC1925997C39993F249D9F86581_inline (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, bool ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Bindings.NativeConditionalAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_m2D44C123AE8913373A143BBE663F4DEF8D21DEF9 (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, String_t* ___condition0, const RuntimeMethod* method);
+// System.Void UnityEngine.Bindings.NativeConditionalAttribute::set_StubReturnStatement(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_StubReturnStatement_m71BF07ECA8A32AC203CF83AE3ED7CE3DD55BD57C_inline (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void System.ArgumentNullException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97 (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * __this, String_t* ___paramName0, const RuntimeMethod* method);
 // System.Boolean System.String::op_Equality(System.String,System.String)
@@ -2489,6 +2506,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Condition
 		return;
 	}
 }
+// System.Void UnityEngine.Bindings.NativeConditionalAttribute::set_StubReturnStatement(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_StubReturnStatement_m71BF07ECA8A32AC203CF83AE3ED7CE3DD55BD57C (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeConditionalAttribute_set_StubReturnStatement_m71BF07ECA8A32AC203CF83AE3ED7CE3DD55BD57C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(NativeConditionalAttribute_set_StubReturnStatement_m71BF07ECA8A32AC203CF83AE3ED7CE3DD55BD57C_RuntimeMethod_var);
+	{
+		String_t* L_0 = ___value0;
+		__this->set_U3CStubReturnStatementU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
 // System.Void UnityEngine.Bindings.NativeConditionalAttribute::set_Enabled(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_mC5611EF1236F6AC1925997C39993F249D9F86581 (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, bool ___value0, const RuntimeMethod* method)
 {
@@ -2501,7 +2534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_m
 	StackTraceSentry _stackTraceSentry(NativeConditionalAttribute_set_Enabled_mC5611EF1236F6AC1925997C39993F249D9F86581_RuntimeMethod_var);
 	{
 		bool L_0 = ___value0;
-		__this->set_U3CEnabledU3Ek__BackingField_1(L_0);
+		__this->set_U3CEnabledU3Ek__BackingField_2(L_0);
 		return;
 	}
 }
@@ -2520,6 +2553,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_m2D44C1
 		String_t* L_0 = ___condition0;
 		NativeConditionalAttribute_set_Condition_m380CB2CFC2874DA64DA0D2934FCD35923924E09C_inline(__this, L_0, /*hidden argument*/NULL);
 		NativeConditionalAttribute_set_Enabled_mC5611EF1236F6AC1925997C39993F249D9F86581_inline(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Bindings.NativeConditionalAttribute::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_m28DDCA8C9EB60300B6B558FF4A3B0E9D915F4A5D (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, String_t* ___condition0, String_t* ___stubReturnStatement1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeConditionalAttribute__ctor_m28DDCA8C9EB60300B6B558FF4A3B0E9D915F4A5D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(NativeConditionalAttribute__ctor_m28DDCA8C9EB60300B6B558FF4A3B0E9D915F4A5D_RuntimeMethod_var);
+	{
+		String_t* L_0 = ___condition0;
+		NativeConditionalAttribute__ctor_m2D44C123AE8913373A143BBE663F4DEF8D21DEF9(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___stubReturnStatement1;
+		NativeConditionalAttribute_set_StubReturnStatement_m71BF07ECA8A32AC203CF83AE3ED7CE3DD55BD57C_inline(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3700,7 +3751,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_s
 {
 	{
 		bool L_0 = ___value0;
-		__this->set_U3CEnabledU3Ek__BackingField_1(L_0);
+		__this->set_U3CEnabledU3Ek__BackingField_2(L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_StubReturnStatement_m71BF07ECA8A32AC203CF83AE3ED7CE3DD55BD57C_inline (NativeConditionalAttribute_t659349956F06958D4D05443BD06FF5CDC767C88B * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_U3CStubReturnStatementU3Ek__BackingField_1(L_0);
 		return;
 	}
 }

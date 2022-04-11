@@ -667,6 +667,8 @@ struct TimerCallback_tD193CC50BF27E129E6857E1E8A7EAC24BD131814;
 struct TokenHashValue_tB0AE1E936B85B34D296293DC063F53900B629BBE;
 // System.Runtime.Remoting.Proxies.TransparentProxy
 struct TransparentProxy_t0A3E7468290B2C8EEEC64C242D586F3EE7B3F968;
+// System.Runtime.CompilerServices.TupleElementNamesAttribute
+struct TupleElementNamesAttribute_tA4BB7E54E3D9A06A7EA4334EC48A0BFC809F65FD;
 // System.Type
 struct Type_t;
 // System.Reflection.Emit.TypeBuilder
@@ -891,6 +893,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral38E3DBC7FC353425EF3A98DC8DAC6689AF5FD1BE
 IL2CPP_EXTERN_C String_t* _stringLiteral394D9487F8171F45C2847AD5165B33BB96FA6912;
 IL2CPP_EXTERN_C String_t* _stringLiteral3ECE023333DCF45DE7B1FEAFFE30E295210DDD9B;
 IL2CPP_EXTERN_C String_t* _stringLiteral401602777C44EA69B5FF9AB6AB2D47AEEC89D2AA;
+IL2CPP_EXTERN_C String_t* _stringLiteral40865E142EF8973B86D9465462C5A04FC7CE26FF;
 IL2CPP_EXTERN_C String_t* _stringLiteral40ECEE4F0375579345B12997784DFF6281C8D9F1;
 IL2CPP_EXTERN_C String_t* _stringLiteral41A7A009D447FFBB9DAE7C088E93F490C2584AE6;
 IL2CPP_EXTERN_C String_t* _stringLiteral425F5F813732FED85827862C06F57BF8EF4A4F81;
@@ -1320,6 +1323,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* TransparentProxy_StoreRemoteField_m6B070E2F
 IL2CPP_EXTERN_C const RuntimeMethod* TransparentProxy__ctor_m6A88FD51CCBCB6297246F69AF674178EA1CBEF59_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TransparentProxy_get_IsContextBoundObject_m2337244378FE111D0958229B77A7B5417483F7F7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TransparentProxy_get_TargetContext_m1E8318A0A8B094F2B727AE03FC65E02F640B9C87_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TupleElementNamesAttribute__ctor_mAA971B5CB6FAE0690C06558CA92983ABC486068E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Tuple_CombineHashCodes_m34B16565FCB93CC63DAF544CC55CD4459A7435AB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Tuple_CombineHashCodes_mF9D7D71904B3F58A6D8570CE7F5A667115A30797_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TypeBuilderInstantiation_MakeGenericType_m0AA7AF3DECD308D888F557FAF67FEB3944068915_RuntimeMethod_var;
@@ -1571,6 +1575,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* UInt32_System_IConvertible_ToUInt64_m15736C
 IL2CPP_EXTERN_C const RuntimeMethod* UInt32_ToString_m7361490C5FE5DBC3BE9496B5C9A1239FE6D9E805_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt32_ToString_mAF0A46E9EC70EA43A02EBE522FF287E20DEE691B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt32_ToString_mEB55F257429D34ED2BF41AE9567096F1F969B9A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UInt32_ToString_mFE8BEBC3E66C2EC6D5CB25B31BE498D48E93CAB5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt32_TryParse_m5A92B541CF9CC6532CB23BDE6DF7460E5EAC8435_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_CompareTo_m09A23080254642321CAEC630AD60FD22EEEC07D6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_CompareTo_m0FE6AA3DAFB1B50D238163015CC0133B2B1FAC53_RuntimeMethod_var;
@@ -2533,6 +2538,8 @@ struct ReadOnlyCollection_1_t52C38CE86D68A2D1C8C94E240170756F47476FB0  : public 
 public:
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1::_syncRoot
+	RuntimeObject * ____syncRoot_1;
 
 public:
 	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t52C38CE86D68A2D1C8C94E240170756F47476FB0, ___list_0)); }
@@ -2542,6 +2549,15 @@ public:
 	{
 		___list_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___list_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__syncRoot_1() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t52C38CE86D68A2D1C8C94E240170756F47476FB0, ____syncRoot_1)); }
+	inline RuntimeObject * get__syncRoot_1() const { return ____syncRoot_1; }
+	inline RuntimeObject ** get_address_of__syncRoot_1() { return &____syncRoot_1; }
+	inline void set__syncRoot_1(RuntimeObject * value)
+	{
+		____syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_1), (void*)value);
 	}
 };
 
@@ -6379,6 +6395,25 @@ public:
 	{
 		___scheduler_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___scheduler_1), (void*)value);
+	}
+};
+
+
+// System.Runtime.CompilerServices.TupleElementNamesAttribute
+struct TupleElementNamesAttribute_tA4BB7E54E3D9A06A7EA4334EC48A0BFC809F65FD  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+	// System.String[] System.Runtime.CompilerServices.TupleElementNamesAttribute::_transformNames
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ____transformNames_0;
+
+public:
+	inline static int32_t get_offset_of__transformNames_0() { return static_cast<int32_t>(offsetof(TupleElementNamesAttribute_tA4BB7E54E3D9A06A7EA4334EC48A0BFC809F65FD, ____transformNames_0)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get__transformNames_0() const { return ____transformNames_0; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of__transformNames_0() { return &____transformNames_0; }
+	inline void set__transformNames_0(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	{
+		____transformNames_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____transformNames_0), (void*)value);
 	}
 };
 
@@ -14085,6 +14120,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt32_GetHashCode_m60E3A243F3D79311A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32_ToString_mEB55F257429D34ED2BF41AE9567096F1F969B9A0 (uint32_t* __this, const RuntimeMethod* method);
 // System.String System.UInt32::ToString(System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32_ToString_m7361490C5FE5DBC3BE9496B5C9A1239FE6D9E805 (uint32_t* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
+// System.String System.UInt32::ToString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32_ToString_mFE8BEBC3E66C2EC6D5CB25B31BE498D48E93CAB5 (uint32_t* __this, String_t* ___format0, const RuntimeMethod* method);
 // System.String System.UInt32::ToString(System.String,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32_ToString_mAF0A46E9EC70EA43A02EBE522FF287E20DEE691B (uint32_t* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method);
 // System.Boolean System.Number::TryParseUInt32(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo,System.UInt32&)
@@ -29412,6 +29449,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tuple_CombineHashCodes_m34B16565FCB93
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Runtime.CompilerServices.TupleElementNamesAttribute::.ctor(System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TupleElementNamesAttribute__ctor_mAA971B5CB6FAE0690C06558CA92983ABC486068E (TupleElementNamesAttribute_tA4BB7E54E3D9A06A7EA4334EC48A0BFC809F65FD * __this, StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___transformNames0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TupleElementNamesAttribute__ctor_mAA971B5CB6FAE0690C06558CA92983ABC486068E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(TupleElementNamesAttribute__ctor_mAA971B5CB6FAE0690C06558CA92983ABC486068E_RuntimeMethod_var);
+	{
+		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_0 = ___transformNames0;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * L_1 = (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral40865E142EF8973B86D9465462C5A04FC7CE26FF)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TupleElementNamesAttribute__ctor_mAA971B5CB6FAE0690C06558CA92983ABC486068E_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_2 = ___transformNames0;
+		__this->set__transformNames_0(L_2);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void System.Type::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Type__ctor_m97E89935B770F7BBBAF49C05A24E56062FEA8182 (Type_t * __this, const RuntimeMethod* method)
 {
@@ -39014,6 +39090,34 @@ IL2CPP_EXTERN_C  String_t* UInt32_ToString_m7361490C5FE5DBC3BE9496B5C9A1239FE6D9
 	uint32_t* _thisAdjusted = reinterpret_cast<uint32_t*>(__this + _offset);
 	String_t* _returnValue;
 	_returnValue = UInt32_ToString_m7361490C5FE5DBC3BE9496B5C9A1239FE6D9E805(_thisAdjusted, ___provider0, method);
+	return _returnValue;
+}
+// System.String System.UInt32::ToString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32_ToString_mFE8BEBC3E66C2EC6D5CB25B31BE498D48E93CAB5 (uint32_t* __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt32_ToString_mFE8BEBC3E66C2EC6D5CB25B31BE498D48E93CAB5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(UInt32_ToString_mFE8BEBC3E66C2EC6D5CB25B31BE498D48E93CAB5_RuntimeMethod_var);
+	{
+		int32_t L_0 = *((uint32_t*)__this);
+		String_t* L_1 = ___format0;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_2;
+		L_2 = NumberFormatInfo_get_CurrentInfo_m604B9BFDE58530F94955E0EF1A523D37EA87DF02(/*hidden argument*/NULL);
+		String_t* L_3;
+		L_3 = Number_FormatUInt32_m9F1AADB85C4AA9B92ADB5A9C0AE2EB20BF9E0104(L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* UInt32_ToString_mFE8BEBC3E66C2EC6D5CB25B31BE498D48E93CAB5_AdjustorThunk (RuntimeObject * __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	uint32_t* _thisAdjusted = reinterpret_cast<uint32_t*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = UInt32_ToString_mFE8BEBC3E66C2EC6D5CB25B31BE498D48E93CAB5(_thisAdjusted, ___format0, method);
 	return _returnValue;
 }
 // System.String System.UInt32::ToString(System.String,System.IFormatProvider)

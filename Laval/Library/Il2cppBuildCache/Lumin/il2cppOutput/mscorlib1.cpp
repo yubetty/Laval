@@ -42737,7 +42737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MarshalByRefObject_tD4DF91B488B284F899417EC46
 		WeakReference_tB8558D16C98417FD98C920C42C0CC5C9FF825C76 * L_0 = __this->get__proxyReference_7();
 		NullCheck(L_0);
 		RuntimeObject * L_1;
-		L_1 = VirtFuncInvoker0< RuntimeObject * >::Invoke(5 /* System.Object System.WeakReference::get_Target() */, L_0);
+		L_1 = VirtFuncInvoker0< RuntimeObject * >::Invoke(6 /* System.Object System.WeakReference::get_Target() */, L_0);
 		return ((MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8 *)CastclassClass((RuntimeObject*)L_1, MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8_il2cpp_TypeInfo_var));
 	}
 }

@@ -421,6 +421,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* GUIContent__cctor_m3FB9CD7704F7A4E8D124FC95
 IL2CPP_EXTERN_C const RuntimeMethod* GUIContent__ctor_m0C79169A2B4D160D3EB31D70F813ED6D2703BBB9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GUIContent__ctor_m3FABF20C213051E685B41CA898A20885E02111F0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GUIContent__ctor_mC57EB7929C7079750DF0FBFE6001732F74926A42_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GUIContent_get_text_mA6BE9C17B069417994ED27EE812A39BB960D921A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GUIContent_set_image_mED32F759E202E1B0717D1BF0899971CF4DC400E2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GUIContent_set_text_m1F36FE3E6B6C7058D94808769DE7C104FC85FAFB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GUIContent_set_tooltip_mBAC5101EBC26E738DCBD2D9503E9B8E6BECA6732_RuntimeMethod_var;
@@ -6944,6 +6945,29 @@ IL2CPP_EXTERN_C void GUIContent_t39256993BF4A33F76E073488D6A2F13D678DF60E_marsha
 // Conversion method for clean up from marshalling of: UnityEngine.GUIContent
 IL2CPP_EXTERN_C void GUIContent_t39256993BF4A33F76E073488D6A2F13D678DF60E_marshal_com_cleanup(GUIContent_t39256993BF4A33F76E073488D6A2F13D678DF60E_marshaled_com& marshaled)
 {
+}
+// System.String UnityEngine.GUIContent::get_text()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GUIContent_get_text_mA6BE9C17B069417994ED27EE812A39BB960D921A (GUIContent_t39256993BF4A33F76E073488D6A2F13D678DF60E * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIContent_get_text_mA6BE9C17B069417994ED27EE812A39BB960D921A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(GUIContent_get_text_mA6BE9C17B069417994ED27EE812A39BB960D921A_RuntimeMethod_var);
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = __this->get_m_Text_0();
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
 }
 // System.Void UnityEngine.GUIContent::set_text(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIContent_set_text_m1F36FE3E6B6C7058D94808769DE7C104FC85FAFB (GUIContent_t39256993BF4A33F76E073488D6A2F13D678DF60E * __this, String_t* ___value0, const RuntimeMethod* method)

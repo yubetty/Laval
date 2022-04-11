@@ -9,7 +9,9 @@ DATAS = \
 	Data/level0 \
 	Data/level0.resS \
 	Data/resources.assets \
+	Data/resources.assets.resS \
 	Data/sharedassets0.assets \
+	Data/sharedassets0.assets.resS \
 	Data/Managed/Metadata/global-metadata.dat \
 	Data/Native/libil2cpp.so : bin/libil2cpp.so \
 	Data/Plugins/UnityMagicLeap.so : bin/UnityMagicLeap.so \

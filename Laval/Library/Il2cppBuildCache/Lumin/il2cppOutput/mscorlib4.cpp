@@ -1455,6 +1455,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Delegate_arg_type_match_m970FEC8A9A202F3ACC
 IL2CPP_EXTERN_C const RuntimeMethod* Delegate_arg_type_match_this_m1CDFBFA6D4AD61DD23C3E9E4E151259FB73363EB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Delegate_get_Method_m8C2479250311F4BEA75F013CD3045F5558DE2227_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Delegate_get_Target_mA4C35D598EE379F0F1D49EA8670620792D25EAB1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Delegate_op_Equality_m7E0C89B9C571EA1CDFD6630CF7D49CC929ED6F41_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Delegate_return_type_match_mB71CBFD488D540984EBF6835A051763BCF510F4F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DeserializationEventHandler_BeginInvoke_m693C606168053334C1A229899485B8628AF604C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DeserializationEventHandler_EndInvoke_m8ADAC8771ECB7B19F705402421FF5900F946CD9A_RuntimeMethod_var;
@@ -26670,6 +26671,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t * Delegate_RemoveImpl_mEC8CE82847A
 IL_000b:
 	{
 		return __this;
+	}
+}
+// System.Boolean System.Delegate::op_Equality(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Delegate_op_Equality_m7E0C89B9C571EA1CDFD6630CF7D49CC929ED6F41 (Delegate_t * ___d10, Delegate_t * ___d21, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Delegate_op_Equality_m7E0C89B9C571EA1CDFD6630CF7D49CC929ED6F41_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(Delegate_op_Equality_m7E0C89B9C571EA1CDFD6630CF7D49CC929ED6F41_RuntimeMethod_var);
+	{
+		Delegate_t * L_0 = ___d10;
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		Delegate_t * L_1 = ___d21;
+		if (L_1)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0008:
+	{
+		return (bool)0;
+	}
+
+IL_000a:
+	{
+		Delegate_t * L_2 = ___d21;
+		if (L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000f:
+	{
+		Delegate_t * L_3 = ___d10;
+		Delegate_t * L_4 = ___d21;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_3, L_4);
+		return L_5;
 	}
 }
 // System.Delegate System.Delegate::CreateDelegateNoSecurityCheck(System.RuntimeType,System.Object,System.Reflection.MethodInfo)
